@@ -5,7 +5,7 @@ import streamlit as st
 
 st.title("MemoGPT🤖")
 client = genai.Client(
-    api_key="AIzaSyDTgjNIUc3JoL6Vnglb3gcSz05ZnpkcLoA"
+    api_key="..............."
 )
 path = "history.json"
 
@@ -44,5 +44,6 @@ history.append({
 
 with open(path, "w") as file:
     json.dump(history, file, indent=4)
+
 
 
